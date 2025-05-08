@@ -1,0 +1,48 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "untitled.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInEditor": 1
+        },
+        "#dungeon-set": {
+            "dynamicWrapping": true
+        },
+        "untitled.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 2893,
+                "y": 2041
+            }
+        },
+        "untitled.tmx#dungeon-set": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5
+        },
+        "untitled.tmx#spawners": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "C:/Users/hydri/OneDrive/Documents/_SCHOOL/Sophomore, Spring/CMPM120/Platformer/cmpm120-platformer/assets/Bases/Isometric",
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": "2",
+    "map.tileHeight": 512,
+    "map.tileWidth": 256,
+    "openFiles": [
+        "untitled.tmx"
+    ],
+    "project": "platformer.tiled-project",
+    "recentFiles": [
+        "untitled.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.type": 1
+}

@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="20" height="30" tilewidth="256" tileheight="128" infinite="0" nextlayerid="16" nextobjectid="1">
+ <tileset firstgid="1" name="dungeon-set" tilewidth="256" tileheight="512" tilecount="288" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../Dungeon/Isometric/barrel_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="1">
+   <image source="../Dungeon/Isometric/barrel_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="2">
+   <image source="../Dungeon/Isometric/barrel_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="3">
+   <image source="../Dungeon/Isometric/barrel_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="4">
+   <image source="../Dungeon/Isometric/barrels_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="5">
+   <image source="../Dungeon/Isometric/barrels_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="6">
+   <image source="../Dungeon/Isometric/barrels_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="7">
+   <image source="../Dungeon/Isometric/barrels_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="8">
+   <image source="../Dungeon/Isometric/barrelsStacked_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="9">
+   <image source="../Dungeon/Isometric/barrelsStacked_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="10">
+   <image source="../Dungeon/Isometric/barrelsStacked_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="11">
+   <image source="../Dungeon/Isometric/barrelsStacked_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="12">
+   <image source="../Dungeon/Isometric/bridge_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="13">
+   <image source="../Dungeon/Isometric/bridge_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="14">
+   <image source="../Dungeon/Isometric/bridge_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="15">
+   <image source="../Dungeon/Isometric/bridge_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="16">
+   <image source="../Dungeon/Isometric/bridgeBroken_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="17">
+   <image source="../Dungeon/Isometric/bridgeBroken_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="18">
+   <image source="../Dungeon/Isometric/bridgeBroken_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="19">
+   <image source="../Dungeon/Isometric/bridgeBroken_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="20">
+   <image source="../Dungeon/Isometric/chair_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="21">
+   <image source="../Dungeon/Isometric/chair_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="22">
+   <image source="../Dungeon/Isometric/chair_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="23">
+   <image source="../Dungeon/Isometric/chair_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="24">
+   <image source="../Dungeon/Isometric/chestClosed_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="25">
+   <image source="../Dungeon/Isometric/chestClosed_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="26">
+   <image source="../Dungeon/Isometric/chestClosed_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="27">
+   <image source="../Dungeon/Isometric/chestClosed_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="28">
+   <image source="../Dungeon/Isometric/chestOpen_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="29">
+   <image source="../Dungeon/Isometric/chestOpen_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="30">
+   <image source="../Dungeon/Isometric/chestOpen_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="31">
+   <image source="../Dungeon/Isometric/chestOpen_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="32">
+   <image source="../Dungeon/Isometric/dirt_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="33">
+   <image source="../Dungeon/Isometric/dirt_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="34">
+   <image source="../Dungeon/Isometric/dirt_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="35">
+   <image source="../Dungeon/Isometric/dirt_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="36">
+   <image source="../Dungeon/Isometric/dirtTiles_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="37">
+   <image source="../Dungeon/Isometric/dirtTiles_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="38">
+   <image source="../Dungeon/Isometric/dirtTiles_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="39">
+   <image source="../Dungeon/Isometric/dirtTiles_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="40">
+   <image source="../Dungeon/Isometric/planks_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="41">
+   <image source="../Dungeon/Isometric/planks_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="42">
+   <image source="../Dungeon/Isometric/planks_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="43">
+   <image source="../Dungeon/Isometric/planks_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="44">
+   <image source="../Dungeon/Isometric/planksBroken_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="45">
+   <image source="../Dungeon/Isometric/planksBroken_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="46">
+   <image source="../Dungeon/Isometric/planksBroken_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="47">
+   <image source="../Dungeon/Isometric/planksBroken_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="48">
+   <image source="../Dungeon/Isometric/planksHole_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="49">
+   <image source="../Dungeon/Isometric/planksHole_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="50">
+   <image source="../Dungeon/Isometric/planksHole_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="51">
+   <image source="../Dungeon/Isometric/planksHole_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="52">
+   <image source="../Dungeon/Isometric/stairs_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="53">
+   <image source="../Dungeon/Isometric/stairs_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="54">
+   <image source="../Dungeon/Isometric/stairs_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="55">
+   <image source="../Dungeon/Isometric/stairs_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="56">
+   <image source="../Dungeon/Isometric/stairsAged_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="57">
+   <image source="../Dungeon/Isometric/stairsAged_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="58">
+   <image source="../Dungeon/Isometric/stairsAged_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="59">
+   <image source="../Dungeon/Isometric/stairsAged_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="60">
+   <image source="../Dungeon/Isometric/stairsCorner_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="61">
+   <image source="../Dungeon/Isometric/stairsCorner_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="62">
+   <image source="../Dungeon/Isometric/stairsCorner_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="63">
+   <image source="../Dungeon/Isometric/stairsCorner_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="64">
+   <image source="../Dungeon/Isometric/stairsSpiral_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="65">
+   <image source="../Dungeon/Isometric/stairsSpiral_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="66">
+   <image source="../Dungeon/Isometric/stairsSpiral_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="67">
+   <image source="../Dungeon/Isometric/stairsSpiral_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="68">
+   <image source="../Dungeon/Isometric/stone_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="69">
+   <image source="../Dungeon/Isometric/stone_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="70">
+   <image source="../Dungeon/Isometric/stone_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="71">
+   <image source="../Dungeon/Isometric/stone_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="72">
+   <image source="../Dungeon/Isometric/stoneColumn_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="73">
+   <image source="../Dungeon/Isometric/stoneColumn_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="74">
+   <image source="../Dungeon/Isometric/stoneColumn_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="75">
+   <image source="../Dungeon/Isometric/stoneColumn_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="76">
+   <image source="../Dungeon/Isometric/stoneColumnWood_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="77">
+   <image source="../Dungeon/Isometric/stoneColumnWood_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="78">
+   <image source="../Dungeon/Isometric/stoneColumnWood_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="79">
+   <image source="../Dungeon/Isometric/stoneColumnWood_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="80">
+   <image source="../Dungeon/Isometric/stoneCorner_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="81">
+   <image source="../Dungeon/Isometric/stoneCorner_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="82">
+   <image source="../Dungeon/Isometric/stoneCorner_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="83">
+   <image source="../Dungeon/Isometric/stoneCorner_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="84">
+   <image source="../Dungeon/Isometric/stoneInset_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="85">
+   <image source="../Dungeon/Isometric/stoneInset_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="86">
+   <image source="../Dungeon/Isometric/stoneInset_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="87">
+   <image source="../Dungeon/Isometric/stoneInset_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="88">
+   <image source="../Dungeon/Isometric/stoneLeft_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="89">
+   <image source="../Dungeon/Isometric/stoneLeft_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="90">
+   <image source="../Dungeon/Isometric/stoneLeft_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="91">
+   <image source="../Dungeon/Isometric/stoneLeft_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="92">
+   <image source="../Dungeon/Isometric/stoneMissingTiles_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="93">
+   <image source="../Dungeon/Isometric/stoneMissingTiles_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="94">
+   <image source="../Dungeon/Isometric/stoneMissingTiles_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="95">
+   <image source="../Dungeon/Isometric/stoneMissingTiles_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="96">
+   <image source="../Dungeon/Isometric/stoneRight_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="97">
+   <image source="../Dungeon/Isometric/stoneRight_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="98">
+   <image source="../Dungeon/Isometric/stoneRight_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="99">
+   <image source="../Dungeon/Isometric/stoneRight_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="100">
+   <image source="../Dungeon/Isometric/stoneSide_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="101">
+   <image source="../Dungeon/Isometric/stoneSide_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="102">
+   <image source="../Dungeon/Isometric/stoneSide_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="103">
+   <image source="../Dungeon/Isometric/stoneSide_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="104">
+   <image source="../Dungeon/Isometric/stoneSideUneven_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="105">
+   <image source="../Dungeon/Isometric/stoneSideUneven_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="106">
+   <image source="../Dungeon/Isometric/stoneSideUneven_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="107">
+   <image source="../Dungeon/Isometric/stoneSideUneven_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="108">
+   <image source="../Dungeon/Isometric/stoneStep_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="109">
+   <image source="../Dungeon/Isometric/stoneStep_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="110">
+   <image source="../Dungeon/Isometric/stoneStep_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="111">
+   <image source="../Dungeon/Isometric/stoneStep_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="112">
+   <image source="../Dungeon/Isometric/stoneSteps_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="113">
+   <image source="../Dungeon/Isometric/stoneSteps_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="114">
+   <image source="../Dungeon/Isometric/stoneSteps_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="115">
+   <image source="../Dungeon/Isometric/stoneSteps_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="116">
+   <image source="../Dungeon/Isometric/stoneTile_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="117">
+   <image source="../Dungeon/Isometric/stoneTile_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="118">
+   <image source="../Dungeon/Isometric/stoneTile_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="119">
+   <image source="../Dungeon/Isometric/stoneTile_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="120">
+   <image source="../Dungeon/Isometric/stoneUneven_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="121">
+   <image source="../Dungeon/Isometric/stoneUneven_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="122">
+   <image source="../Dungeon/Isometric/stoneUneven_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="123">
+   <image source="../Dungeon/Isometric/stoneUneven_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="124">
+   <image source="../Dungeon/Isometric/stoneWall_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="125">
+   <image source="../Dungeon/Isometric/stoneWall_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="126">
+   <image source="../Dungeon/Isometric/stoneWall_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="127">
+   <image source="../Dungeon/Isometric/stoneWall_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="128">
+   <image source="../Dungeon/Isometric/stoneWallAged_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="129">
+   <image source="../Dungeon/Isometric/stoneWallAged_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="130">
+   <image source="../Dungeon/Isometric/stoneWallAged_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="131">
+   <image source="../Dungeon/Isometric/stoneWallAged_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="132">
+   <image source="../Dungeon/Isometric/stoneWallAgedLeft_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="133">
+   <image source="../Dungeon/Isometric/stoneWallAgedLeft_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="134">
+   <image source="../Dungeon/Isometric/stoneWallAgedLeft_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="135">
+   <image source="../Dungeon/Isometric/stoneWallAgedLeft_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="136">
+   <image source="../Dungeon/Isometric/stoneWallAgedRight_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="137">
+   <image source="../Dungeon/Isometric/stoneWallAgedRight_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="138">
+   <image source="../Dungeon/Isometric/stoneWallAgedRight_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="139">
+   <image source="../Dungeon/Isometric/stoneWallAgedRight_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="140">
+   <image source="../Dungeon/Isometric/stoneWallArchway_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="141">
+   <image source="../Dungeon/Isometric/stoneWallArchway_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="142">
+   <image source="../Dungeon/Isometric/stoneWallArchway_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="143">
+   <image source="../Dungeon/Isometric/stoneWallArchway_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="144">
+   <image source="../Dungeon/Isometric/stoneWallBroken_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="145">
+   <image source="../Dungeon/Isometric/stoneWallBroken_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="146">
+   <image source="../Dungeon/Isometric/stoneWallBroken_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="147">
+   <image source="../Dungeon/Isometric/stoneWallBroken_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="148">
+   <image source="../Dungeon/Isometric/stoneWallBrokenLeft_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="149">
+   <image source="../Dungeon/Isometric/stoneWallBrokenLeft_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="150">
+   <image source="../Dungeon/Isometric/stoneWallBrokenLeft_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="151">
+   <image source="../Dungeon/Isometric/stoneWallBrokenLeft_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="152">
+   <image source="../Dungeon/Isometric/stoneWallBrokenRight_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="153">
+   <image source="../Dungeon/Isometric/stoneWallBrokenRight_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="154">
+   <image source="../Dungeon/Isometric/stoneWallBrokenRight_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="155">
+   <image source="../Dungeon/Isometric/stoneWallBrokenRight_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="156">
+   <image source="../Dungeon/Isometric/stoneWallColumn_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="157">
+   <image source="../Dungeon/Isometric/stoneWallColumn_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="158">
+   <image source="../Dungeon/Isometric/stoneWallColumn_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="159">
+   <image source="../Dungeon/Isometric/stoneWallColumn_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="160">
+   <image source="../Dungeon/Isometric/stoneWallColumnIn_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="161">
+   <image source="../Dungeon/Isometric/stoneWallColumnIn_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="162">
+   <image source="../Dungeon/Isometric/stoneWallColumnIn_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="163">
+   <image source="../Dungeon/Isometric/stoneWallColumnIn_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="164">
+   <image source="../Dungeon/Isometric/stoneWallCorner_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="165">
+   <image source="../Dungeon/Isometric/stoneWallCorner_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="166">
+   <image source="../Dungeon/Isometric/stoneWallCorner_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="167">
+   <image source="../Dungeon/Isometric/stoneWallCorner_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="168">
+   <image source="../Dungeon/Isometric/stoneWallDoor_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="169">
+   <image source="../Dungeon/Isometric/stoneWallDoor_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="170">
+   <image source="../Dungeon/Isometric/stoneWallDoor_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="171">
+   <image source="../Dungeon/Isometric/stoneWallDoor_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="172">
+   <image source="../Dungeon/Isometric/stoneWallDoorBars_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="173">
+   <image source="../Dungeon/Isometric/stoneWallDoorBars_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="174">
+   <image source="../Dungeon/Isometric/stoneWallDoorBars_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="175">
+   <image source="../Dungeon/Isometric/stoneWallDoorBars_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="176">
+   <image source="../Dungeon/Isometric/stoneWallDoorClosed_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="177">
+   <image source="../Dungeon/Isometric/stoneWallDoorClosed_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="178">
+   <image source="../Dungeon/Isometric/stoneWallDoorClosed_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="179">
+   <image source="../Dungeon/Isometric/stoneWallDoorClosed_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="180">
+   <image source="../Dungeon/Isometric/stoneWallDoorOpen_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="181">
+   <image source="../Dungeon/Isometric/stoneWallDoorOpen_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="182">
+   <image source="../Dungeon/Isometric/stoneWallDoorOpen_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="183">
+   <image source="../Dungeon/Isometric/stoneWallDoorOpen_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="184">
+   <image source="../Dungeon/Isometric/stoneWallGate_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="185">
+   <image source="../Dungeon/Isometric/stoneWallGate_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="186">
+   <image source="../Dungeon/Isometric/stoneWallGate_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="187">
+   <image source="../Dungeon/Isometric/stoneWallGate_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="188">
+   <image source="../Dungeon/Isometric/stoneWallGateBars_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="189">
+   <image source="../Dungeon/Isometric/stoneWallGateBars_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="190">
+   <image source="../Dungeon/Isometric/stoneWallGateBars_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="191">
+   <image source="../Dungeon/Isometric/stoneWallGateBars_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="192">
+   <image source="../Dungeon/Isometric/stoneWallGateClosed_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="193">
+   <image source="../Dungeon/Isometric/stoneWallGateClosed_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="194">
+   <image source="../Dungeon/Isometric/stoneWallGateClosed_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="195">
+   <image source="../Dungeon/Isometric/stoneWallGateClosed_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="196">
+   <image source="../Dungeon/Isometric/stoneWallGateOpen_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="197">
+   <image source="../Dungeon/Isometric/stoneWallGateOpen_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="198">
+   <image source="../Dungeon/Isometric/stoneWallGateOpen_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="199">
+   <image source="../Dungeon/Isometric/stoneWallGateOpen_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="200">
+   <image source="../Dungeon/Isometric/stoneWallHalf_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="201">
+   <image source="../Dungeon/Isometric/stoneWallHalf_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="202">
+   <image source="../Dungeon/Isometric/stoneWallHalf_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="203">
+   <image source="../Dungeon/Isometric/stoneWallHalf_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="204">
+   <image source="../Dungeon/Isometric/stoneWallHole_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="205">
+   <image source="../Dungeon/Isometric/stoneWallHole_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="206">
+   <image source="../Dungeon/Isometric/stoneWallHole_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="207">
+   <image source="../Dungeon/Isometric/stoneWallHole_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="208">
+   <image source="../Dungeon/Isometric/stoneWallRound_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="209">
+   <image source="../Dungeon/Isometric/stoneWallRound_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="210">
+   <image source="../Dungeon/Isometric/stoneWallRound_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="211">
+   <image source="../Dungeon/Isometric/stoneWallRound_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="212">
+   <image source="../Dungeon/Isometric/stoneWallRoundBroken_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="213">
+   <image source="../Dungeon/Isometric/stoneWallRoundBroken_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="214">
+   <image source="../Dungeon/Isometric/stoneWallRoundBroken_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="215">
+   <image source="../Dungeon/Isometric/stoneWallRoundBroken_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="216">
+   <image source="../Dungeon/Isometric/stoneWallRoundWindow_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="217">
+   <image source="../Dungeon/Isometric/stoneWallRoundWindow_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="218">
+   <image source="../Dungeon/Isometric/stoneWallRoundWindow_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="219">
+   <image source="../Dungeon/Isometric/stoneWallRoundWindow_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="220">
+   <image source="../Dungeon/Isometric/stoneWallStructure_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="221">
+   <image source="../Dungeon/Isometric/stoneWallStructure_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="222">
+   <image source="../Dungeon/Isometric/stoneWallStructure_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="223">
+   <image source="../Dungeon/Isometric/stoneWallStructure_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="224">
+   <image source="../Dungeon/Isometric/stoneWallTop_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="225">
+   <image source="../Dungeon/Isometric/stoneWallTop_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="226">
+   <image source="../Dungeon/Isometric/stoneWallTop_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="227">
+   <image source="../Dungeon/Isometric/stoneWallTop_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="228">
+   <image source="../Dungeon/Isometric/stoneWallWindow_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="229">
+   <image source="../Dungeon/Isometric/stoneWallWindow_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="230">
+   <image source="../Dungeon/Isometric/stoneWallWindow_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="231">
+   <image source="../Dungeon/Isometric/stoneWallWindow_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="232">
+   <image source="../Dungeon/Isometric/stoneWallWindowBars_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="233">
+   <image source="../Dungeon/Isometric/stoneWallWindowBars_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="234">
+   <image source="../Dungeon/Isometric/stoneWallWindowBars_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="235">
+   <image source="../Dungeon/Isometric/stoneWallWindowBars_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="236">
+   <image source="../Dungeon/Isometric/tableChairsBroken_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="237">
+   <image source="../Dungeon/Isometric/tableChairsBroken_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="238">
+   <image source="../Dungeon/Isometric/tableChairsBroken_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="239">
+   <image source="../Dungeon/Isometric/tableChairsBroken_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="240">
+   <image source="../Dungeon/Isometric/tableRound_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="241">
+   <image source="../Dungeon/Isometric/tableRound_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="242">
+   <image source="../Dungeon/Isometric/tableRound_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="243">
+   <image source="../Dungeon/Isometric/tableRound_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="244">
+   <image source="../Dungeon/Isometric/tableRoundChairs_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="245">
+   <image source="../Dungeon/Isometric/tableRoundChairs_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="246">
+   <image source="../Dungeon/Isometric/tableRoundChairs_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="247">
+   <image source="../Dungeon/Isometric/tableRoundChairs_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="248">
+   <image source="../Dungeon/Isometric/tableRoundItemsChairs_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="249">
+   <image source="../Dungeon/Isometric/tableRoundItemsChairs_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="250">
+   <image source="../Dungeon/Isometric/tableRoundItemsChairs_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="251">
+   <image source="../Dungeon/Isometric/tableRoundItemsChairs_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="252">
+   <image source="../Dungeon/Isometric/tableShort_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="253">
+   <image source="../Dungeon/Isometric/tableShort_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="254">
+   <image source="../Dungeon/Isometric/tableShort_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="255">
+   <image source="../Dungeon/Isometric/tableShort_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="256">
+   <image source="../Dungeon/Isometric/tableShortChairs_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="257">
+   <image source="../Dungeon/Isometric/tableShortChairs_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="258">
+   <image source="../Dungeon/Isometric/tableShortChairs_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="259">
+   <image source="../Dungeon/Isometric/tableShortChairs_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="260">
+   <image source="../Dungeon/Isometric/woodenCrate_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="261">
+   <image source="../Dungeon/Isometric/woodenCrate_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="262">
+   <image source="../Dungeon/Isometric/woodenCrate_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="263">
+   <image source="../Dungeon/Isometric/woodenCrate_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="264">
+   <image source="../Dungeon/Isometric/woodenCrates_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="265">
+   <image source="../Dungeon/Isometric/woodenCrates_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="266">
+   <image source="../Dungeon/Isometric/woodenCrates_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="267">
+   <image source="../Dungeon/Isometric/woodenCrates_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="268">
+   <image source="../Dungeon/Isometric/woodenPile_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="269">
+   <image source="../Dungeon/Isometric/woodenPile_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="270">
+   <image source="../Dungeon/Isometric/woodenPile_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="271">
+   <image source="../Dungeon/Isometric/woodenPile_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="272">
+   <image source="../Dungeon/Isometric/woodenSupportBeams_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="273">
+   <image source="../Dungeon/Isometric/woodenSupportBeams_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="274">
+   <image source="../Dungeon/Isometric/woodenSupportBeams_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="275">
+   <image source="../Dungeon/Isometric/woodenSupportBeams_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="276">
+   <image source="../Dungeon/Isometric/woodenSupports_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="277">
+   <image source="../Dungeon/Isometric/woodenSupports_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="278">
+   <image source="../Dungeon/Isometric/woodenSupports_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="279">
+   <image source="../Dungeon/Isometric/woodenSupports_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="280">
+   <image source="../Dungeon/Isometric/woodenSupportsBeam_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="281">
+   <image source="../Dungeon/Isometric/woodenSupportsBeam_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="282">
+   <image source="../Dungeon/Isometric/woodenSupportsBeam_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="283">
+   <image source="../Dungeon/Isometric/woodenSupportsBeam_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="284">
+   <image source="../Dungeon/Isometric/woodenSupportsBlock_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="285">
+   <image source="../Dungeon/Isometric/woodenSupportsBlock_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="286">
+   <image source="../Dungeon/Isometric/woodenSupportsBlock_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="287">
+   <image source="../Dungeon/Isometric/woodenSupportsBlock_W.png" width="256" height="512"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="289" name="spawners" tilewidth="256" tileheight="512" tilecount="160" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../Bases/Isometric/base_dirt_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="1">
+   <image source="../Bases/Isometric/base_dirt_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="2">
+   <image source="../Bases/Isometric/base_dirt_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="3">
+   <image source="../Bases/Isometric/base_dirt_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="4">
+   <image source="../Bases/Isometric/base_dirt_float_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="5">
+   <image source="../Bases/Isometric/base_dirt_float_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="6">
+   <image source="../Bases/Isometric/base_dirt_float_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="7">
+   <image source="../Bases/Isometric/base_dirt_float_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="8">
+   <image source="../Bases/Isometric/base_dirt_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="9">
+   <image source="../Bases/Isometric/base_dirt_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="10">
+   <image source="../Bases/Isometric/base_dirt_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="11">
+   <image source="../Bases/Isometric/base_dirt_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="12">
+   <image source="../Bases/Isometric/base_dirt_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="13">
+   <image source="../Bases/Isometric/base_dirt_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="14">
+   <image source="../Bases/Isometric/base_dirt_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="15">
+   <image source="../Bases/Isometric/base_dirt_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="16">
+   <image source="../Bases/Isometric/base_grass_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="17">
+   <image source="../Bases/Isometric/base_grass_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="18">
+   <image source="../Bases/Isometric/base_grass_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="19">
+   <image source="../Bases/Isometric/base_grass_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="20">
+   <image source="../Bases/Isometric/base_grass_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="21">
+   <image source="../Bases/Isometric/base_grass_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="22">
+   <image source="../Bases/Isometric/base_grass_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="23">
+   <image source="../Bases/Isometric/base_grass_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="24">
+   <image source="../Bases/Isometric/base_grass_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="25">
+   <image source="../Bases/Isometric/base_grass_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="26">
+   <image source="../Bases/Isometric/base_grass_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="27">
+   <image source="../Bases/Isometric/base_grass_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="28">
+   <image source="../Bases/Isometric/base_grass_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="29">
+   <image source="../Bases/Isometric/base_grass_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="30">
+   <image source="../Bases/Isometric/base_grass_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="31">
+   <image source="../Bases/Isometric/base_grass_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="32">
+   <image source="../Bases/Isometric/base_snow_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="33">
+   <image source="../Bases/Isometric/base_snow_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="34">
+   <image source="../Bases/Isometric/base_snow_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="35">
+   <image source="../Bases/Isometric/base_snow_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="36">
+   <image source="../Bases/Isometric/base_snow_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="37">
+   <image source="../Bases/Isometric/base_snow_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="38">
+   <image source="../Bases/Isometric/base_snow_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="39">
+   <image source="../Bases/Isometric/base_snow_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="40">
+   <image source="../Bases/Isometric/base_snow_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="41">
+   <image source="../Bases/Isometric/base_snow_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="42">
+   <image source="../Bases/Isometric/base_snow_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="43">
+   <image source="../Bases/Isometric/base_snow_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="44">
+   <image source="../Bases/Isometric/base_snow_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="45">
+   <image source="../Bases/Isometric/base_snow_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="46">
+   <image source="../Bases/Isometric/base_snow_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="47">
+   <image source="../Bases/Isometric/base_snow_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="48">
+   <image source="../Bases/Isometric/base_stone_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="49">
+   <image source="../Bases/Isometric/base_stone_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="50">
+   <image source="../Bases/Isometric/base_stone_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="51">
+   <image source="../Bases/Isometric/base_stone_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="52">
+   <image source="../Bases/Isometric/base_stone_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="53">
+   <image source="../Bases/Isometric/base_stone_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="54">
+   <image source="../Bases/Isometric/base_stone_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="55">
+   <image source="../Bases/Isometric/base_stone_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="56">
+   <image source="../Bases/Isometric/base_stone_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="57">
+   <image source="../Bases/Isometric/base_stone_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="58">
+   <image source="../Bases/Isometric/base_stone_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="59">
+   <image source="../Bases/Isometric/base_stone_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="60">
+   <image source="../Bases/Isometric/base_stone_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="61">
+   <image source="../Bases/Isometric/base_stone_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="62">
+   <image source="../Bases/Isometric/base_stone_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="63">
+   <image source="../Bases/Isometric/base_stone_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="64">
+   <image source="../Bases/Isometric/base_wood_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="65">
+   <image source="../Bases/Isometric/base_wood_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="66">
+   <image source="../Bases/Isometric/base_wood_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="67">
+   <image source="../Bases/Isometric/base_wood_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="68">
+   <image source="../Bases/Isometric/base_wood_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="69">
+   <image source="../Bases/Isometric/base_wood_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="70">
+   <image source="../Bases/Isometric/base_wood_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="71">
+   <image source="../Bases/Isometric/base_wood_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="72">
+   <image source="../Bases/Isometric/base_wood_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="73">
+   <image source="../Bases/Isometric/base_wood_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="74">
+   <image source="../Bases/Isometric/base_wood_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="75">
+   <image source="../Bases/Isometric/base_wood_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="76">
+   <image source="../Bases/Isometric/base_wood_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="77">
+   <image source="../Bases/Isometric/base_wood_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="78">
+   <image source="../Bases/Isometric/base_wood_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="79">
+   <image source="../Bases/Isometric/base_wood_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="80">
+   <image source="../Bases/Isometric/square_dirt_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="81">
+   <image source="../Bases/Isometric/square_dirt_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="82">
+   <image source="../Bases/Isometric/square_dirt_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="83">
+   <image source="../Bases/Isometric/square_dirt_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="84">
+   <image source="../Bases/Isometric/square_dirt_float_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="85">
+   <image source="../Bases/Isometric/square_dirt_float_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="86">
+   <image source="../Bases/Isometric/square_dirt_float_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="87">
+   <image source="../Bases/Isometric/square_dirt_float_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="88">
+   <image source="../Bases/Isometric/square_dirt_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="89">
+   <image source="../Bases/Isometric/square_dirt_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="90">
+   <image source="../Bases/Isometric/square_dirt_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="91">
+   <image source="../Bases/Isometric/square_dirt_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="92">
+   <image source="../Bases/Isometric/square_dirt_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="93">
+   <image source="../Bases/Isometric/square_dirt_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="94">
+   <image source="../Bases/Isometric/square_dirt_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="95">
+   <image source="../Bases/Isometric/square_dirt_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="96">
+   <image source="../Bases/Isometric/square_grass_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="97">
+   <image source="../Bases/Isometric/square_grass_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="98">
+   <image source="../Bases/Isometric/square_grass_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="99">
+   <image source="../Bases/Isometric/square_grass_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="100">
+   <image source="../Bases/Isometric/square_grass_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="101">
+   <image source="../Bases/Isometric/square_grass_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="102">
+   <image source="../Bases/Isometric/square_grass_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="103">
+   <image source="../Bases/Isometric/square_grass_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="104">
+   <image source="../Bases/Isometric/square_grass_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="105">
+   <image source="../Bases/Isometric/square_grass_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="106">
+   <image source="../Bases/Isometric/square_grass_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="107">
+   <image source="../Bases/Isometric/square_grass_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="108">
+   <image source="../Bases/Isometric/square_grass_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="109">
+   <image source="../Bases/Isometric/square_grass_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="110">
+   <image source="../Bases/Isometric/square_grass_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="111">
+   <image source="../Bases/Isometric/square_grass_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="112">
+   <image source="../Bases/Isometric/square_snow_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="113">
+   <image source="../Bases/Isometric/square_snow_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="114">
+   <image source="../Bases/Isometric/square_snow_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="115">
+   <image source="../Bases/Isometric/square_snow_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="116">
+   <image source="../Bases/Isometric/square_snow_float_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="117">
+   <image source="../Bases/Isometric/square_snow_float_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="118">
+   <image source="../Bases/Isometric/square_snow_float_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="119">
+   <image source="../Bases/Isometric/square_snow_float_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="120">
+   <image source="../Bases/Isometric/square_snow_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="121">
+   <image source="../Bases/Isometric/square_snow_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="122">
+   <image source="../Bases/Isometric/square_snow_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="123">
+   <image source="../Bases/Isometric/square_snow_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="124">
+   <image source="../Bases/Isometric/square_snow_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="125">
+   <image source="../Bases/Isometric/square_snow_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="126">
+   <image source="../Bases/Isometric/square_snow_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="127">
+   <image source="../Bases/Isometric/square_snow_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="128">
+   <image source="../Bases/Isometric/square_stone_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="129">
+   <image source="../Bases/Isometric/square_stone_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="130">
+   <image source="../Bases/Isometric/square_stone_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="131">
+   <image source="../Bases/Isometric/square_stone_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="132">
+   <image source="../Bases/Isometric/square_stone_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="133">
+   <image source="../Bases/Isometric/square_stone_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="134">
+   <image source="../Bases/Isometric/square_stone_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="135">
+   <image source="../Bases/Isometric/square_stone_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="136">
+   <image source="../Bases/Isometric/square_stone_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="137">
+   <image source="../Bases/Isometric/square_stone_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="138">
+   <image source="../Bases/Isometric/square_stone_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="139">
+   <image source="../Bases/Isometric/square_stone_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="140">
+   <image source="../Bases/Isometric/square_stone_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="141">
+   <image source="../Bases/Isometric/square_stone_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="142">
+   <image source="../Bases/Isometric/square_stone_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="143">
+   <image source="../Bases/Isometric/square_stone_high_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="144">
+   <image source="../Bases/Isometric/square_wood_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="145">
+   <image source="../Bases/Isometric/square_wood_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="146">
+   <image source="../Bases/Isometric/square_wood_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="147">
+   <image source="../Bases/Isometric/square_wood_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="148">
+   <image source="../Bases/Isometric/square_wood_flat_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="149">
+   <image source="../Bases/Isometric/square_wood_flat_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="150">
+   <image source="../Bases/Isometric/square_wood_flat_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="151">
+   <image source="../Bases/Isometric/square_wood_flat_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="152">
+   <image source="../Bases/Isometric/square_wood_high_detail_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="153">
+   <image source="../Bases/Isometric/square_wood_high_detail_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="154">
+   <image source="../Bases/Isometric/square_wood_high_detail_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="155">
+   <image source="../Bases/Isometric/square_wood_high_detail_W.png" width="256" height="512"/>
+  </tile>
+  <tile id="156">
+   <image source="../Bases/Isometric/square_wood_high_E.png" width="256" height="512"/>
+  </tile>
+  <tile id="157">
+   <image source="../Bases/Isometric/square_wood_high_N.png" width="256" height="512"/>
+  </tile>
+  <tile id="158">
+   <image source="../Bases/Isometric/square_wood_high_S.png" width="256" height="512"/>
+  </tile>
+  <tile id="159">
+   <image source="../Bases/Isometric/square_wood_high_W.png" width="256" height="512"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="30">
+  <data encoding="csv">
+123,69,94,70,122,119,123,122,118,94,71,94,70,120,118,123,93,118,124,122,
+69,70,71,96,122,70,70,121,121,122,122,71,124,94,96,95,94,94,118,122,
+71,123,95,94,93,95,120,124,96,93,117,93,118,94,93,118,117,69,117,120,
+120,71,120,124,120,69,95,123,71,124,123,93,72,123,118,119,118,96,122,70,
+96,93,70,70,122,124,95,122,72,94,123,94,122,119,118,117,121,94,95,119,
+120,117,124,69,123,96,69,121,117,70,117,124,119,118,70,96,94,124,117,124,
+96,95,95,70,118,118,95,123,71,123,96,94,122,95,70,95,120,95,117,95,
+117,118,69,93,72,95,124,94,122,123,72,120,71,70,72,120,120,122,70,70,
+71,96,120,96,123,71,121,72,69,95,93,121,71,72,119,70,122,71,124,119,
+94,118,123,122,95,70,96,95,70,123,96,72,119,96,120,70,96,70,124,119,
+93,123,122,122,69,124,69,123,124,72,118,95,122,122,122,124,94,93,118,94,
+94,94,119,96,96,123,96,123,122,96,117,117,93,119,122,69,94,117,121,120,
+93,124,121,121,71,122,123,122,120,119,96,95,93,122,117,96,71,95,119,124,
+118,93,93,69,69,94,119,93,121,119,122,118,119,120,70,118,118,95,71,117,
+124,94,94,96,123,96,96,117,94,123,96,119,93,120,94,119,117,94,122,119,
+69,118,120,117,69,121,93,69,69,72,69,96,69,118,122,95,96,122,94,120,
+69,70,122,72,93,95,122,95,70,124,96,120,93,70,122,117,71,117,117,121,
+72,96,93,96,93,96,72,124,117,120,95,118,70,120,122,69,118,72,70,122,
+71,117,72,94,119,119,122,121,72,121,70,72,121,96,69,94,93,121,93,72,
+123,72,94,118,117,69,69,123,93,121,118,72,121,72,70,71,117,124,95,123,
+124,70,69,96,93,120,72,69,96,119,96,95,96,124,118,117,95,96,93,71,
+71,124,118,96,71,94,95,71,119,96,96,117,124,119,72,118,94,120,71,124,
+121,123,72,69,118,123,70,119,123,118,120,70,95,119,123,122,122,71,94,69,
+95,94,71,94,117,95,70,122,123,96,124,118,117,69,121,120,70,122,117,119,
+72,93,120,122,121,69,69,121,96,122,118,70,119,72,71,121,121,71,69,117,
+71,118,94,72,118,96,122,96,95,124,117,95,118,71,96,69,123,96,119,94,
+117,71,122,121,119,72,93,71,119,123,123,95,123,118,124,95,94,70,94,72,
+117,117,72,94,122,123,122,94,119,96,120,71,69,120,93,93,121,72,118,123,
+121,123,72,119,95,95,95,118,121,95,96,93,124,72,123,69,70,93,70,119,
+103,107,115,107,107,115,115,115,115,103,115,115,103,107,115,107,107,115,115,103
+</data>
+ </layer>
+ <layer id="8" name="Moveable Objects" width="20" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Immovable Objects" width="20" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,271,268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Wall" width="20" height="30">
+  <data encoding="csv">
+167,131,131,131,131,131,131,167,163,191,163,131,167,131,131,131,131,131,131,168,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,132,
+125,0,0,0,0,0,0,125,75,0,73,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,132,
+125,0,0,0,0,0,0,125,75,0,74,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,193,0,0,0,0,193,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,76,0,76,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,76,0,76,0,125,0,0,0,0,0,0,128,
+167,131,131,131,131,131,131,125,0,0,0,0,167,131,131,131,131,131,131,168,
+125,0,0,0,0,0,0,125,73,0,75,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,73,0,74,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,193,0,0,0,0,193,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,74,0,73,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,73,0,76,0,125,0,0,0,0,0,0,128,
+125,88,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+167,131,166,131,131,131,127,125,73,0,74,0,167,131,131,131,131,131,131,168,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,74,0,75,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,193,0,0,0,0,193,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,75,0,73,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,75,0,73,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,73,0,76,0,125,0,0,0,0,0,0,128,
+125,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,128,
+165,130,130,130,130,130,126,165,130,186,162,130,165,130,130,130,130,130,130,166,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="14" name="WallObjects" width="20" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+272,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="Platform-Stands" width="20" height="30" offsetx="3" offsety="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,286,0,286,0,0,
+0,0,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,286,0,0,0,286,0,0,
+0,0,287,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,286,0,0,0,286,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,286,0,286,0,286,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="Platforms" width="20" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,42,0,0,0,
+0,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,41,0,0,0,
+0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,41,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,41,0,41,0,42,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="Floating Floors" width="20" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Spawners" width="20" height="30" offsetx="-1.33333" offsety="-17.3333">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,289,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="Spawners2" width="20" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,321,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
